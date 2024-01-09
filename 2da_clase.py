@@ -10,7 +10,7 @@ def autoLogin():
     chrome_options.binary_location = '/path/to/chromium'
     chrome_options.add_argument('--headless')
     username_git = "power38261010"
-    password_git = "camilo94"
+    password_git = ""
 
     browser = webdriver.Chrome(options=chrome_options)
 
